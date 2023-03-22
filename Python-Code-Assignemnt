@@ -1,0 +1,13 @@
+# Take user input for name, age, and degree program
+name = input("What is your name? ")
+age = int(input("How old are you? "))
+degree_program = input("What is your degree program? ")
+
+# Perform calculations to get remaining age
+remaining_age = (age * 3) % 2
+
+# Create message with string concatenation
+message = "Hello, " + name + "! Your remaining age is " + str(remaining_age) + " and you are studying " + degree_program + "."
+
+# Print message
+print(message)
